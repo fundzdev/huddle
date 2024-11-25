@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.header img {
+    width:
+        60%;
+}
+
+.btn1 {
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 2.5px 10px grey;
+    width: 150%;
+    padding: 5px;
+}
+
+.firstbox {
+    padding: 20px;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(./huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subset1 {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    /* gap: 10px; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.img1 {
+    width: 100%;
+}
+
+.build {
+    margin-top: 80px;
+    width: 100%;
+}
+
+.build h3 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    border: none;
+    width: 50%;
+    margin-top: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.grow {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgb(172, 172, 172);
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.img2 {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.img3 {
+    width: 50%;
+
+}
+
+.grow2 {
+    width: 100%;
+}
+
+.grow2 h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.grow2 p {
+    text-align: left;
+    line-height: 25px;
+}
+
+.flow {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgb(175, 175, 175);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.flow2 {
+    width: 100%;
+}
+
+.flow2 h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.flow2 p {
+    text-align: left;
+    line-height: 25px;
+}
+
+.your {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px rgb(183, 182, 182);
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+
+.img4 {
+    width: 50%;
+    margin-left: 200px;
+}
+
+.your2 {
+    width: 100%;
+}
+
+.your2 h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+.your2 p {
+    text-align: left;
+    line-height: 25px;
+}
+
+.thirdbox {
+    width: 50%;
+    /* outline: 1px solid gray; */
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 1475px;
+    z-index: 1;
+    background-color: #fff;
+    left: 295px;
+    height: 25vh;
+    box-shadow: 0px 5px 10px grey;
+    border-radius: 15px;
+
+
+}
+
+.secondbox {
+    position: relative;
+}
+
+.btn3 {
+    border: none;
+    width: 50%;
+    margin-top: 30px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.thirdbox h3 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 40px;
+    position: relative;
+
+
+
+}
+
+.img5 {
+    margin-top: 5%;
+}
+
+.subft {
+    display: flex;
+    gap: 30px;
+}
+
+.location {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.nav1 li {
+    list-style: none;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.copy{
+    margin-top: 20px;
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .subset1 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        /* gap: 10px; */
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .build {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .build h3 {
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 20px;
+    }
+
+    .build p {
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+
+    .btn2 {
+        border: none;
+        width: 50%;
+        margin-top: 30px;
+        background-color: hsl(322, 100%, 66%);
+        color: white;
+        padding: 10px;
+        border-radius: 30px;
+        margin-bottom: 60px;
+    }
+
+    .grow {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        justify-content: space-between;
+        outline: 0px solid #fff;
+        width: 70%;
+        margin: auto;
+        margin-top: 150px;
+        padding: 20px;
+        align-items: center;
+        box-shadow: 0px 5px 10px grey;
+        border-radius: 15px;
+
+    }
+
+    .img2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .grow2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .flow {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: space-between;
+        outline: 0px solid grey;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 20px;
+        align-items: center;
+        box-shadow: 0px 5px 10px grey;
+        border-radius: 15px;
+
+    }
+
+    .flow2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img3 {
+        width: 100%;
+
+    }
+
+    .your {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        justify-content: space-between;
+        outline: 0px solid grey;
+        box-shadow: 0px 5px 10px grey;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        padding: 20px;
+        align-items: center;
+        margin-bottom: 150px;
+
+    }
+
+    .img4 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .your2 p {
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .your2 h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+
+    }
+
+    .thirdbox {
+        width: 50%;
+        /* outline: 1px solid gray; */
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        top: 2475px;
+        z-index: 1;
+        background-color: #fff;
+        left: 25px;
+        height: 25vh;
+        box-shadow: 0px 5px 10px grey;
+        border-radius: 15px;
+        width: 90%;
+    }
+    .img5 {
+        margin-top: 30%;
+    }
+    .subft {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .nav1 li {
+        list-style: none;
+        line-height: 35px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .copy{
+        margin-top: 20px;
+        text-align: center;
+    }
+}
