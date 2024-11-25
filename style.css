@@ -399,4 +399,13 @@
         margin-top: 20px;
         text-align: center;
     }
+    .header {
+        display: flex;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    
+    }
 }
